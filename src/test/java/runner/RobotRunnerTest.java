@@ -7,7 +7,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/test/java/features/"},
-glue={"step_definitions"})
+glue={"step_definitions"}, 
+monochrome = true,
+plugin = { "pretty" })
 public class RobotRunnerTest {
 
 }
