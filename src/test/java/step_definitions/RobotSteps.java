@@ -8,7 +8,7 @@ import cucumber.api.java.en.When;
 import implementation.Robot;
 
 public class RobotSteps {
-	private Robot robot = new Robot("good");
+	private Robot robot = new Robot("undefined");
 	
 	@Given("^I am in a \"([^\"]*)\" mood$")
 	public void i_am_in_a_mood(String mood) throws Throwable {
